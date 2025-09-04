@@ -1,4 +1,7 @@
 setProperty("waterbottle", "right", 0);
-setProperty("waterbottle", "background-color", "red");
-
-setProperty("emptybottle", "background-color", "lightblue");
+onEvent("waterbottle", "click", function () {
+  setProperty("waterbottle", "background-color", "red");
+});
+onEvent("emptybottle", "click", function () {
+  setProperty("emptybottle", "background-color", "lightblue");
+});
