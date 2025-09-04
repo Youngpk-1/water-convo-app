@@ -1,0 +1,7 @@
+#waterbottle{
+    position: absolute;
+    bottom: 0;
+}
+body{
+    position: relative;
+}
