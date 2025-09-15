@@ -8,15 +8,12 @@ onEvent("shower-duck", "click", function () {
   setImageURL("shower-duck", "rubber-duck.jpeg");
   console.log("shower");
 });
-// var showerDuck = document.getElementById("showerDuck");
-// showerDuck.addEventListener("click", function () {
-//   console.log(showerDuck);
-//    {
-//     showerDuck.src = "rubber-duck.jpg";
-//   } else {
-//     showerDuck.src = "showerDuck.jpg";
-//   }
-// });
+
+onEvent("timer", "click", function () {
+  setImageURL("timer", "countdown-timer.jpeg");
+  setImageURL("shower-duck", "rubber-duck.jpeg");
+  playSound("alarm.mp3", "false");
+});
 
 function toEnglish() {
   setText(

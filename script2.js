@@ -1,10 +1,16 @@
 setProperty("waterbottle", "right", 0);
+
 onEvent("waterbottle", "click", function () {
-  setProperty("waterbottle", "background-color", "red");
+  setImageURL("waterbottle", "no-sign.gif");
+  setProperty("waterbottle", "water-bottle.png");
+  playSound("error.mp3");
 });
+
 onEvent("emptybottle", "click", function () {
   setProperty("emptybottle", "background-color", "lightblue");
+  playSound("rightanswer.mp3");
 });
+
 setProperty("waterAppheader", "color", "blue");
 onEvent("spanish", "click", toSpanish);
 
