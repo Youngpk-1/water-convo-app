@@ -5,9 +5,8 @@ onEvent("english", "click", toEnglish);
 onEvent("hellobtn", "click", textColor);
 
 onEvent("shower-duck", "click", function () {
-  console.log(shower);
-  setImageURL("shower-duck", "shower-duck.jpg");
-  setImageURL("rubber-duck", "rubber-duck.jpeg");
+  setImageURL("shower-duck", "rubber-duck.jpeg");
+  console.log("shower");
 });
 // var showerDuck = document.getElementById("showerDuck");
 // showerDuck.addEventListener("click", function () {
